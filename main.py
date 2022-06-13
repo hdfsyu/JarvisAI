@@ -51,8 +51,6 @@ def run_jarvis():
         info = wikipedia.summary(item, 1)
         print(info)
         talk(info)
-    elif 'are you single' in command:
-        talk('I am in a relationship with wifi')
     elif 'joke' in command:
         talk(pyjokes.get_joke())
     else:
